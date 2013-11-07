@@ -1,11 +1,11 @@
 participle
 ==========
 
-php简单分词类库
+##php简单分词类库
 不需要安装扩展，自带字典，使用方法简单,请参考index.php文件示例：
+
+
 <code>
-header("Content-Type:text/html; charset=utf-8");
-define('APP_ROOT', str_replace('\\', '/', dirname(__FILE__)));
 
 $con = '最高价值1140元的美丽田园SPA润白护理套餐，女士专享。源自欧洲，护肤名门，美丽就在你身边，3市31店通用。优惠券限量限时发放，优惠后套餐价568元。
 
